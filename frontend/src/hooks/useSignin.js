@@ -1,16 +1,16 @@
 import { useState } from "react";
 import { useAuthContext } from "./useAuthContext";
 
-export const useSignup = () => {
+export const useSignin = () => {
   const [error, setError] = useState(null);
   const [isLoading, setIsLoading] = useState(null);  // To disable buttons when loading
   const {dispatch} = useAuthContext();
 
-  const signup = async (email, password) => {
+  const signin = async (email, password) => {
     setIsLoading(true);
     setError(null);
 
-    const response = await fetch('/api/user/signup', {
+    const response = await fetch('/api/user/signin', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({email, password})
@@ -34,5 +34,5 @@ export const useSignup = () => {
     }
   }
 
-  return {signup, isLoading, error}
+  return {signin, isLoading, error}
 }
