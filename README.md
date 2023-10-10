@@ -8,6 +8,5 @@ Features: Todo list style workout tracker with user account management (sign in,
 ## Homepage
 ![image](https://github.com/Vernon-C/workout-tracker/assets/80450405/129d724e-5610-4256-ac96-6bdb98d23cd1)
 
-
 ## Features in progress:
 1. Adding profile pictures to user accounts
