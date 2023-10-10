@@ -6,9 +6,8 @@ Features: Todo list style workout tracker with user account management (sign in,
 •	Data Management: Utilised MongoDB for the secure storage of user data.
 
 ## Homepage
-![image](https://github.com/Vernon-C/workout-tracker/assets/80450405/ad1142ce-9283-4332-9010-7d281fa80673)
+![image](https://github.com/Vernon-C/workout-tracker/assets/80450405/129d724e-5610-4256-ac96-6bdb98d23cd1)
 
 
 ## Features in progress:
-1. Authentication for users.
-2. Linking users to their own list of workouts.
+1. Adding profile pictures to user accounts
