@@ -17,4 +17,4 @@ MONGO_URI=MongoDB connect URL<br />
 SECRET=JSON web token name
 
 ## Features in progress:
-1. Adding profile pictures to user accounts
+1. Adding an update task function.
