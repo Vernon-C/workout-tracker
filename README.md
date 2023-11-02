@@ -11,10 +11,10 @@ Features: Todo list style workout tracker with user account management (sign in,
 ## IMPORTANT
 Users need to perform an npm install, develop their own .env file, and MongoDB database to use this app.
 
-.env file content:
-PORT=4000
-MONGO_URI=<MongoDB connect URL>
-SECRET=<JSON web token name>
+.env file content:<br />
+PORT=Port number e.g. 4000<br />
+MONGO_URI=MongoDB connect URL<br />
+SECRET=JSON web token name
 
 ## Features in progress:
 1. Adding profile pictures to user accounts
